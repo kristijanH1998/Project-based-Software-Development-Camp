@@ -1,0 +1,39 @@
+.message
+{
+    background-color: rgb(235, 231, 231);
+    border: 1px solid #797575;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 1% 0px 1%;
+    
+} 
+
+#avatar-col
+{
+    flex: 65px 0 0;
+    max-width: 65px;
+}
+#foot
+{
+    position:absolute;
+    clear:left;
+    float:left;
+    width:300px;
+    height:50px;
+    left:0;
+    bottom:0px;
+}
+
+img {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    
+}
+
+.textbox
+{
+    width: 98%;
+    word-break:normal;
+    background-color: white;
+}

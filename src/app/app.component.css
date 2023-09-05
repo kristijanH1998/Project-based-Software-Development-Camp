@@ -1,0 +1,122 @@
+#side-menu
+{
+    background-color: #F0FFFF;
+    flex: 300px 0 0 ;
+    max-width: 250px;
+}
+
+.input-style
+{
+    background-color: #F5F5F5;
+    overflow: auto;
+    border: none;
+    height: 100px;
+    width: 90vh;
+    padding-bottom: 30px;
+    resize: none;
+}
+
+.inputbutton-style
+{
+    height: 100px;
+    width: 10vh;
+    position: relative;
+}
+
+.message
+{
+    background-color:#f1f1f1;
+    border: 1px solid #797575;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px 1% 0px 1%;
+} 
+
+.deletebox
+{
+    float: right;
+    margin: 0px 20px 0px 0px;
+    background-color: #F8F8FF;
+    background: url( "https://w7.pngwing.com/pngs/602/718/png-transparent-computer-icons-recycle-bin-rectangle-recycle-bin-black-and-white.png" ) no-repeat;
+    border: none;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+
+.sidemenu-button
+{
+    background-color:#F0FFFF;
+    border: none;
+}
+
+#delete-button{
+    flex: 20px 0 0;
+    height: 20px;
+    max-width: 20px;
+}
+
+.textbox
+{
+    background-color: #f1f1f1;
+    width: 98vh;
+    word-break: break-all;
+    margin: 1%;
+}
+
+#avatar-col
+{
+    flex: 65px 0 0;
+    max-width: 65px;
+}
+
+.round-box
+{
+    border-radius: 5px;
+}
+
+#side-element
+{
+    flex: 200px 0 0;
+    max-width: 20vh;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(77, 77, 77);
+}
+
+.bottom-mar
+{
+    margin-bottom: 5px;
+}
+
+#container,
+#container > .row
+{
+    min-height: 100vh;
+}
+
+.chat
+{
+    background-color: #f1f1f1;
+    border: 1px solid #797575;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    height: 10%;
+    width: 80%;
+}
+
+img {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    
+}
+
+#foot
+{
+    position:absolute;
+    bottom:5px;
+    /* overflow:auto; */
+    /* height: 95vh; */
+}
